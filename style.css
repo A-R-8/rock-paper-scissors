@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black;
+    backdrop-filter: blur(8px);
+    background-color: black;
+    color: aliceblue;
+    
+    }
+    
+    .top-buttons button {
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    
+    
+    }
+    .top-buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    }
+    img {
+    border-radius: 12px;
+    box-shadow: 2px 5px 20px white;
+    padding: 0;
+    margin: 0;
+    
+    height: 196px;
+    width: 196px;
+    }
+    
+    .result {
+    font-size: large;
+    }
+    
+    .picks {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+    }
+    .player-pick, .comp-pick {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    /* border: black solid; */
+    border-radius: 12px;
+    text-align: center;
+    
+    }
+    
+    #pl-pick {
+    height: 146px;
+    width: 146px;
+    padding: 0;
+    margin: 0;
+    
+    }
+    #com-pick {
+    height: 146px;
+    width: 146px;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .content {
+    font-size: larger;
+    }
+    .text {
+    /* border: black solid; */
+    margin-bottom: 10px;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    
+    .box {
+    /* background-color: rgb(0, 0,0);
+    background-color: rgba(0, 0, 0, 0.4); */
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    height: 60%;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    }
